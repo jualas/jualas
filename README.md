@@ -1,6 +1,6 @@
 ### Hola, soy Juan Antonio Francés (jualas) 👋
 
-Desarrollador **backend Python** con foco en **IA aplicada**: APIs con FastAPI, bases de datos SQL, integración de LLM y despliegue con Docker. Titulado en **DAM**, en Cartagena, y buscando mi primer puesto como desarrollador (remoto preferiblemente).
+Desarrollador **full stack** titulado en **DAM**, en Cartagena: APIs con **Python/FastAPI** y SQL, frontends web con **React + TypeScript** y apps **Flutter** (web y móvil), integrando **IA** (LLM, RAG, MCP) cuando aporta. Busco mi primer puesto como desarrollador (remoto preferiblemente).
 
 Me gusta llevar los proyectos hasta producción: mis aplicaciones corren en un servidor propio con Docker Compose, CI en GitHub Actions, staging y *rollback*.
 
@@ -32,10 +32,11 @@ Gestor de proyectos y tareas (Kanban y lista) con **asistente IA**. Nace de mi p
 #### 🛠️ Tecnologías
 
 - **Backend:** Python · FastAPI · Pydantic · SQLAlchemy/Alembic · asyncpg · NestJS
+- **Frontend web:** React · TypeScript · Vite · MapLibre
+- **Móvil / multiplataforma:** Flutter · Dart · BLoC
 - **Datos:** PostgreSQL · SQLite · SQL · ETL de XML/JSON
 - **IA:** integración de LLM (APIs compatibles con OpenAI, Ollama, DeepSeek) · Dify · RAG · MCP
-- **Frontend / móvil:** React · TypeScript · Flutter/Dart
-- **DevOps:** Docker / Docker Compose · GitHub Actions · nginx · Cloudflare Tunnel · Linux (Debian)
+- **DevOps:** Docker / Docker Compose · GitHub Actions · nginx · Caddy · Cloudflare Tunnel · Linux (Debian)
 
 #### 📫 Contacto
 
