@@ -26,7 +26,6 @@ Gestor de proyectos y tareas (Kanban y lista) con **asistente IA**. Nace de mi p
 | Proyecto | Qué es | Stack |
 |---|---|---|
 | [proyecto_flutter_supabase](https://github.com/jualas/proyecto_flutter_supabase) | Proyecto fin de ciclo DAM (origen de TaskBoard): seguimiento de TFG entre alumnos, tutores y centro | Flutter, Supabase (PostgreSQL) |
-| [proyecto-fct-NetJs](https://github.com/jualas/proyecto-fct-NetJs) | Gestión de proyectos FCT con arquitectura limpia | NestJS, TypeScript, Flutter |
 
 *En preparación para publicar:* **Oposiciones** (FastAPI + React, preguntas tipo test generadas con RAG sobre exámenes oficiales).
 
