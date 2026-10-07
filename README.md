@@ -6,14 +6,14 @@ Me gusta llevar los proyectos hasta producción: mis aplicaciones corren en un s
 
 #### 🚀 Proyectos destacados
 
-**[Electrolineras](https://github.com/jualas/electrolineras)** · [demo en vivo](https://electro.jualas.es)
+**[Electrolineras](https://github.com/jualas/electrolineras)** · [demo en vivo](https://electro.jualas.es)  
 Mapa de ~22.000 cargadores de vehículo eléctrico en España y Portugal a partir de datos abiertos oficiales (DATEX II).
 - FastAPI + React/TypeScript + MapLibre, con OSRM y Nominatim autoalojados.
 - Ingestión ETL programada, búsqueda de cargadores en el corredor de una ruta y planificador de paradas de carga.
 - Asistente de viaje con IA (Dify) que usa la API como herramientas; zona privada con login TOTP.
 - 230+ tests con pytest, Ruff y GitHub Actions; despliegue con Docker Compose.
 
-**[TaskBoard](https://github.com/jualas/taskboard)** · [en producción](https://kanban.jualas.es)
+**[TaskBoard](https://github.com/jualas/taskboard)** · [en producción](https://kanban.jualas.es)  
 Gestor de proyectos y tareas (Kanban y lista) con **asistente IA**. Nace de mi proyecto fin de ciclo ([proyecto_flutter_supabase](https://github.com/jualas/proyecto_flutter_supabase)) y lo rehíce sobre un backend propio en lugar de Supabase.
 - API REST con FastAPI + PostgreSQL (asyncpg, SQL sin ORM) y autenticación JWT; cliente Flutter Web.
 - Vincula cada proyecto a su repo: detecta commits y cambios y propone tareas automáticamente.
