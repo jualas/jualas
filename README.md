@@ -14,9 +14,10 @@ Mapa de ~22.000 cargadores de vehículo eléctrico en España y Portugal a parti
 - 230+ tests con pytest, Ruff y GitHub Actions; despliegue con Docker Compose.
 
 **[TaskBoard](https://github.com/jualas/taskboard)** · [en producción](https://kanban.jualas.es)  
-Gestor de proyectos y tareas (Kanban y lista) que gestiono con **agentes de IA** a través de MCP. Nace de mi proyecto fin de ciclo ([proyecto_flutter_supabase](https://github.com/jualas/proyecto_flutter_supabase)) y lo rehíce sobre un backend propio en lugar de Supabase.
+Gestor de proyectos y tareas (Kanban y lista) con **asistente IA** y servidor MCP para agentes. Nace de mi proyecto fin de ciclo ([proyecto_flutter_supabase](https://github.com/jualas/proyecto_flutter_supabase)) y lo rehíce sobre un backend propio en lugar de Supabase.
 - API REST con FastAPI + PostgreSQL (asyncpg, SQL sin ORM) y autenticación JWT; cliente Flutter Web.
 - Vincula cada proyecto a su repo: detecta commits y cambios y propone tareas automáticamente.
+- Asistente IA que planifica el backlog por chat y lo alinea con el estado del repo: usa Cursor Agent CLI y, como alternativa, cualquier modelo compatible con la API de OpenAI (probado con DeepSeek y Ollama).
 - **Servidor MCP propio**: lo gestiono a diario con agentes de IA (agente de Cursor y Claude Code) que consultan y actualizan proyectos y tareas a través del MCP y la API.
 - En uso real: con él planifico y sigo todos mis proyectos. Se arranca en local con `docker compose up`.
 
