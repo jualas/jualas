@@ -25,6 +25,7 @@ Gestor de proyectos y tareas (Kanban y lista) que gestiono con **agentes de IA**
 | Proyecto | Qué es | Stack |
 |---|---|---|
 | [proyecto_flutter_supabase](https://github.com/jualas/proyecto_flutter_supabase) | Proyecto fin de ciclo DAM (origen de TaskBoard): seguimiento de TFG entre alumnos, tutores y centro | Flutter, Supabase (PostgreSQL) |
+| [editor-tarjetas-acceso](https://github.com/jualas/editor-tarjetas-acceso) | Herramienta que desarrollé para resolver una necesidad de mi puesto actual y que está en producción: editor visual y generador por lotes de tarjetas de control de acceso, con CLI y ejecutable para Windows (versión genérica) | Python, NiceGUI, Pillow, PyInstaller |
 
 *En preparación para publicar:* **Oposiciones** (FastAPI + React, preguntas tipo test generadas con RAG sobre exámenes oficiales).
 
