@@ -2,7 +2,7 @@
 
 Desarrollador **full stack** titulado en **DAM**, en Cartagena: APIs con **Python/FastAPI** y SQL, frontends web con **React + TypeScript** y apps **Flutter** (web y móvil), integrando **IA** (LLM, RAG, MCP) cuando aporta. Busco mi primer puesto como desarrollador (remoto preferiblemente).
 
-Me gusta llevar los proyectos hasta producción: mis aplicaciones corren en un servidor propio con Docker Compose, CI en GitHub Actions, staging y *rollback*.
+Me gusta llevar los proyectos hasta producción: mis aplicaciones corren en un servidor propio con Docker Compose, CI en GitHub Actions, staging y *rollback*, con escaneo de secretos y dependencias y contenedores sin root.
 
 #### 🚀 Proyectos destacados
 
@@ -10,7 +10,8 @@ Me gusta llevar los proyectos hasta producción: mis aplicaciones corren en un s
 Mapa de ~22.000 cargadores de vehículo eléctrico en España y Portugal a partir de datos abiertos oficiales (DATEX II).
 - FastAPI + React/TypeScript + MapLibre, con OSRM y Nominatim autoalojados.
 - Ingestión ETL programada, búsqueda de cargadores en el corredor de una ruta y planificador de paradas de carga.
-- Asistente de viaje con IA (Dify) que usa la API como herramientas; zona privada con login TOTP.
+- Asistente de viaje con IA: el motor de la API calcula el plan de carga y un LLM conversa sobre él; zona privada con login TOTP.
+- App Android complementaria ([electrolineras-cercanas](https://github.com/jualas/electrolineras-cercanas)) para enviar al Tesla el cargador más cercano durante el viaje.
 - 230+ tests con pytest, Ruff y GitHub Actions; despliegue con Docker Compose.
 
 **[TaskBoard](https://github.com/jualas/taskboard)** · [en producción](https://kanban.jualas.es)  
@@ -19,6 +20,7 @@ Gestor de proyectos y tareas (Kanban y lista) con **asistente IA** y servidor MC
 - Vincula cada proyecto a su repo: detecta commits y cambios y propone tareas automáticamente.
 - Asistente IA que planifica el backlog por chat y lo alinea con el estado del repo: usa Cursor Agent CLI y, como alternativa, cualquier modelo compatible con la API de OpenAI (probado con DeepSeek y Ollama).
 - **Servidor MCP propio**: lo gestiono a diario con agentes de IA (agente de Cursor y Claude Code) que consultan y actualizan proyectos y tareas a través del MCP y la API.
+- Seguridad del asistente: revisión de *prompt injection* con pruebas reales (el contenido del repo se trata como dato, no como instrucción) y tests de los endpoints de IA en CI.
 - En uso real: con él planifico y sigo todos mis proyectos. Se arranca en local con `docker compose up`.
 
 #### 📂 Otros proyectos
@@ -36,10 +38,10 @@ Gestor de proyectos y tareas (Kanban y lista) con **asistente IA** y servidor MC
 
 - **Backend:** Python · FastAPI · Pydantic · SQLAlchemy/Alembic · asyncpg · NestJS
 - **Frontend web:** React · TypeScript · Vite · MapLibre
-- **Móvil / multiplataforma:** Flutter · Dart · BLoC
+- **Móvil / multiplataforma:** Flutter · Dart · BLoC · Capacitor (Android)
 - **Datos:** PostgreSQL · SQLite · SQL · ETL de XML/JSON
-- **IA:** integración de LLM (APIs compatibles con OpenAI, Ollama, DeepSeek) · Dify · RAG · MCP
-- **DevOps:** Docker / Docker Compose · GitHub Actions · nginx · Caddy · Cloudflare Tunnel · Linux (Debian)
+- **IA:** integración de LLM (APIs compatibles con OpenAI, Ollama, DeepSeek) · Dify · RAG · MCP · agentes (Cursor CLI, Claude Code)
+- **DevOps:** Docker / Docker Compose · GitHub Actions · nginx · Caddy · Cloudflare Tunnel · Linux (Debian) · gitleaks · Trivy · CodeQL
 
 #### 📫 Contacto
 
