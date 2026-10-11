@@ -28,6 +28,7 @@ Gestor de proyectos y tareas (Kanban y lista) con **asistente IA** y servidor MC
 | [proyecto_flutter_supabase](https://github.com/jualas/proyecto_flutter_supabase) | Proyecto fin de ciclo DAM (origen de TaskBoard): seguimiento de TFG entre alumnos, tutores y centro | Flutter, Supabase (PostgreSQL) |
 | [editor-tarjetas-acceso](https://github.com/jualas/editor-tarjetas-acceso) | En mi puesto actual las tarjetas de control de acceso se hacían a mano una a una; desarrollé esta herramienta, hoy en producción, que las diseña y genera en lote: editor visual, CLI y ejecutable para Windows (versión genérica) | Python, NiceGUI, Pillow, PyInstaller |
 | [duplicate-cleaner](https://github.com/jualas/duplicate-cleaner) | Detecta y limpia archivos duplicados en Windows y Linux por tamaño y hash, con simulación por defecto; CLI, interfaz gráfica y TUI para servidores por SSH | Python, Typer, PySide6, Textual, pytest |
+| [electrolineras-cercanas](https://github.com/jualas/electrolineras-cercanas) | App Android que complementa a Electrolineras durante el viaje: encuentra el cargador más cercano según potencia y envía el destino al Tesla, sin planificar rutas | React, TypeScript, Capacitor, MapLibre |
 
 *En preparación para publicar:* **Oposiciones** (FastAPI + React, preguntas tipo test generadas con RAG sobre exámenes oficiales).
 
